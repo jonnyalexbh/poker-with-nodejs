@@ -1,9 +1,3 @@
-# Poker With NodeJs
-
-
-### Function isStraight
-
-```javascript
 exports.isStraight = (cards) => {
   const AS_MAX = 14;
   const AS_MIN = 2;
@@ -26,7 +20,4 @@ exports.isStraight = (cards) => {
   cards.shift()
   return exports.isStraight(cards);
  };
-```
-### Execute function isStraight
-
-isStraight([2, 7, 8, 5, 10, 9, 11])
+ 
