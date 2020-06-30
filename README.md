@@ -1,6 +1,5 @@
 # Poker With NodeJs
 
-
 ### Function isStraight
 
 ```javascript
@@ -29,4 +28,13 @@ exports.isStraight = (cards) => {
 ```
 ### Execute function isStraight
 
+```javascript
 isStraight([2, 7, 8, 5, 10, 9, 11])
+```
+
+### Running project
+
+```ssh
+npm start
+npm run start:dev
+```
